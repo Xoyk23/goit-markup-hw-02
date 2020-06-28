@@ -1,0 +1,19 @@
+.portfolio h2 {
+  font-size: 18px;
+  line-height: 36px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.portfolio p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
