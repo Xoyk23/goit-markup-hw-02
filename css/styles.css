@@ -1,4 +1,4 @@
-.portfolio h2 {
+.portfolio-title {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -8,7 +8,7 @@
   color: #212121;
 }
 
-.portfolio p {
+.portfolio-text {
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
