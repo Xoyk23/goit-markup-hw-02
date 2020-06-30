@@ -50,6 +50,9 @@ span {
 .menunav .menunav-links:focus {
   color: var(--accent-color);
 }
+.menunav .menunav-links.current {
+  color: var(--accent-color);
+}
 
 .contacts .contacts-links:focus,
 .contacts .contacts-links:hover {
