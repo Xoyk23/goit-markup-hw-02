@@ -7,10 +7,15 @@
   --primary-text-color: #757575;
   --primary-title-color: #212121;
   --accent-color: #2196f3;
+  --primary-white-color: #ffffff;
+  --footer-background-color: #2f303a;
+  --secondary-white-color: #f5f4fa;
+  --main-black-color: #000000;
+  --footer-links-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
-  background-color: #ffffff;
+  background-color: var(--primary-white-color);
   color: var(--primary-text-color);
 }
 /* оформление шапки */
@@ -21,11 +26,11 @@ body {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
-  color: black;
+  color: var(--main-black-color);
   text-decoration: none;
 }
 
-span {
+.logo-decoration {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -46,18 +51,15 @@ span {
   color: var(--primary-title-color);
 }
 
+/* Оформление интерактивных элементов */
 .menunav .menunav-links:hover,
-.menunav .menunav-links:focus {
-  color: var(--accent-color);
-}
-.menunav .menunav-links.current {
-  color: var(--accent-color);
-}
-
+.menunav .menunav-links:focus,
+.menunav .menunav-links.current,
 .contacts .contacts-links:focus,
 .contacts .contacts-links:hover {
   color: var(--accent-color);
 }
+
 /* оформление списка контактов */
 .contacts-links {
   font-family: 'Roboto', sans-serif;
@@ -119,7 +121,7 @@ span {
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--footer-links-color);
 }
 
 .logo-footer {
@@ -179,7 +181,7 @@ a {
 }
 
 footer {
-  background: #2f303a;
+  background: var(--footer-background-color);
 }
 
 b {
