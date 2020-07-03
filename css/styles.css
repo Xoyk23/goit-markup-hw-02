@@ -12,6 +12,8 @@
   --secondary-white-color: #f5f4fa;
   --main-black-color: #000000;
   --footer-links-color: rgba(255, 255, 255, 0.6);
+  --secondaty-accent-color: #188ce8;
+  --text-background-color: rgba(47, 48, 58, 0.8);
 }
 
 body {
