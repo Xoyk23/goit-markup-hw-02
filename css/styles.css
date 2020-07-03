@@ -42,12 +42,14 @@ body {
 }
 
 /* оформление навигации сайта */
-.menunav {
+
+.menunav-links {
+  color: var(--primary-title-color);
+  font-family: inherit;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-title-color);
 }
 
 /* Оформление интерактивных элементов */
