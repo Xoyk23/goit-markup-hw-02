@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title lang="en">Markup homework</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
@@ -11,7 +15,7 @@
     <!-- Шапка -->
     <header class="head">
       <nav>
-        <a href="./index.html" class="logo" class="menunav-links"
+        <a href="./index.html" class="logo menunav-links"
           ><span class="logo-decoration">Web</span> Studio</a
         >
         <ul class="menunav">
@@ -43,16 +47,16 @@
     </header>
     <main>
       <!-- Секция Герой -->
-      <section>
-        <h1>
+      <section class="hero">
+        <h1 class="hero-title">
           Эффективные решения<br />
           для вашего бизнеса
         </h1>
-        <a href="">Заказать услугу</a>
+        <a href="" class="button">Заказать услугу</a>
       </section>
       <section>
         <!-- Секция преимуществ -->
-        <h2 hidden="true">Наши Преимущества</h2>
+        <h2 class="subject">Наши Преимущества</h2>
         <ul class="advantages">
           <li>
             <img src="./images/features/antenna1.svg" alt="иконка_антенны" />
@@ -102,7 +106,7 @@
               width="370"
               height="294"
             />
-            <h3>Десктопные приложения</h3>
+            <h3 class="job-description">Десктопные приложения</h3>
           </li>
           <li>
             <img
@@ -111,7 +115,7 @@
               width="370"
               height="294"
             />
-            <h3>Мобильные приложения</h3>
+            <h3 class="job-description">Мобильные приложения</h3>
           </li>
           <li>
             <img
@@ -120,14 +124,14 @@
               width="370"
               height="294"
             />
-            <h3>Дизайнерские решения</h3>
+            <h3 class="job-description">Дизайнерские решения</h3>
           </li>
         </ul>
       </section>
       <section>
         <!-- Секция наша команда -->
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="team">Наша команда</h2>
+        <ul class="team-list">
           <li>
             <img
               src="./images/Nick.jpg"
@@ -135,9 +139,9 @@
               width="270"
               height="260"
             />
-            <h3>Николай Кучеренко</h3>
-            <p>Product Designer</p>
-            <ul>
+            <h3 class="team-title">Николай Кучеренко</h3>
+            <p class="team-text">Product Designer</p>
+            <ul class="team-socials">
               <li><a href="" aria-label="Иконка инстаграма">Instagram</a></li>
               <li><a href="" aria-label="Иконка твиттера">twitter</a></li>
               <li><a href="" aria-label="Иконка фейсбука">Facebook</a></li>
@@ -151,9 +155,9 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Иванова</h3>
-            <p>Frontend Developer</p>
-            <ul>
+            <h3 class="team-title">Ольга Иванова</h3>
+            <p class="team-text">Frontend Developer</p>
+            <ul class="team-socials">
               <li><a href="" aria-label="Иконка инстаграма">Instagram</a></li>
               <li><a href="" aria-label="Иконка твиттера">twitter</a></li>
               <li><a href="" aria-label="Иконка фейсбука">Facebook</a></li>
@@ -167,9 +171,9 @@
               width="270"
               height="260"
             />
-            <h3>Андрей Шевченко</h3>
-            <p>Marketing</p>
-            <ul>
+            <h3 class="team-title">Андрей Шевченко</h3>
+            <p class="team-text">Marketing</p>
+            <ul class="team-socials">
               <li><a href="" aria-label="Иконка инстаграма">Instagram</a></li>
               <li><a href="" aria-label="Иконка твиттера">twitter</a></li>
               <li><a href="" aria-label="Иконка фейсбука">Facebook</a></li>
@@ -183,9 +187,9 @@
               width="270"
               height="260"
             />
-            <h3>Иван Николаев</h3>
-            <p>UI Designer</p>
-            <ul>
+            <h3 class="team-title">Иван Николаев</h3>
+            <p class="team-text">UI Designer</p>
+            <ul class="team-socials">
               <li><a href="" aria-label="Иконка инстаграма">Instagram</a></li>
               <li><a href="" aria-label="Иконка твиттера">twitter</a></li>
               <li><a href="" aria-label="Иконка фейсбука">Facebook</a></li>
@@ -195,8 +199,8 @@
         </ul>
       </section>
       <!-- Секция постоянные клиенты -->
-      <section>
-        <h2>Постоянные клиенты</h2>
+      <section class="clients">
+        <h2 class="clients-title">Постоянные клиенты</h2>
         <ul>
           <li>
             <img src="./images/clients/logo1.png" alt="логотип_клиента1" /><a
@@ -264,7 +268,7 @@
       </div>
       <div>
         <b>Подпишитесь на рассылку</b>
-        <a href="">Подписаться</a>
+        <a href="" class="button-footer">Подписаться</a>
       </div>
     </footer>
   </body>

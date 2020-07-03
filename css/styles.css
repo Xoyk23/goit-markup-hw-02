@@ -14,16 +14,14 @@
   --footer-links-color: rgba(255, 255, 255, 0.6);
   --secondaty-accent-color: #188ce8;
   --text-background-color: rgba(47, 48, 58, 0.8);
+  --socials-main-color: #afb1b8;
 }
 
 body {
   background-color: var(--primary-white-color);
   color: var(--primary-text-color);
   font-family: 'Roboto', sans-serif;
-}
-
-h1 h2 h3 h4 h5 h6 {
-  font-family: 'Roboto', sans-serif;
+  letter-spacing: 0.03em;
 }
 
 /* оформление шапки */
@@ -32,7 +30,6 @@ h1 h2 h3 h4 h5 h6 {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--main-black-color);
 }
 
@@ -41,13 +38,11 @@ h1 h2 h3 h4 h5 h6 {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
 }
 
 /* оформление навигации сайта */
 .menunav {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -66,7 +61,6 @@ h1 h2 h3 h4 h5 h6 {
 
 /* оформление списка контактов */
 .contacts-links {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -76,46 +70,85 @@ h1 h2 h3 h4 h5 h6 {
 /* Оформление основной страницы */
 /* Секция преимуществ */
 .advantages-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-title-color);
 }
 
 .advantages-text {
-  font-family: Roboto;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 /* Секция "Чем мы занимаемся */
 .job-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
+
+.job-description {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  background-color: var(--text-background-color);
+}
+
+/* Секция наша Команда */
+/* Заголовок */
+.team {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+
+/* Имена команды */
+.team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+/* Должности */
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+/* Соц сети */
+.team-socials a {
+  color: var(--socials-main-color);
+}
+/* Секция постоянные клиенты */
+.clients-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-title-color);
+}
+
 /* Подвал */
 .mail-footer {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1.7;
   color: rgba(255, 255, 255, 0.6);
 }
 
 .phone-footer {
-  font-family: 'Roboto', sans-serif;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: var(--footer-links-color);
 }
 
@@ -124,21 +157,17 @@ h1 h2 h3 h4 h5 h6 {
   font-weight: bold;
   font-size: 26px;
   line-height: 1.2;
-  letter-spacing: 0.03em;
   color: #ffffff;
   text-decoration: none;
 }
 .map-link {
-  font-family: Roboto;
   font-size: 14px;
   line-height: 1.7;
-  letter-spacing: 0.03em;
   color: #ffffff;
 }
 
 /* Оформление портфолио */
 .portfolio-title {
-  font-family: 'Roboto', sans-serif;
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -147,20 +176,16 @@ h1 h2 h3 h4 h5 h6 {
 }
 
 .portfolio-text {
-  font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.9;
-  letter-spacing: 0.03em;
   color: var(--primary-text-color);
 }
 
 .filters button {
-  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--primary-title-color);
 }
 
@@ -173,7 +198,6 @@ footer {
 }
 
 b {
-  font-family: Roboto;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -181,8 +205,8 @@ b {
   text-transform: uppercase;
   color: #ffffff;
 }
-
-h1 {
+/* Секция Герой */
+.hero-title {
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 44px;
@@ -191,4 +215,34 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
+  background-color: var(--text-background-color);
+}
+
+/* Кнопки */
+.button {
+  color: var(--primary-white-color);
+  background-color: var(--secondaty-accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.button-footer {
+  color: var(--primary-white-color);
+  background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.subject {
+  display: none;
 }
