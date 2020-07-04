@@ -64,7 +64,9 @@ body {
 .menunav .menunav-links:focus,
 .menunav .menunav-links.current,
 .contacts .contacts-links:focus,
-.contacts .contacts-links:hover {
+.contacts .contacts-links:hover,
+.button-filter:hover,
+.button-filter:focus {
   color: var(--accent-color);
 }
 
@@ -246,7 +248,7 @@ b {
 .button-footer {
   background-color: var(--accent-color);
 }
-
+/* Кнопки филтров */
 .button-filter,
 .button-filter-secondary {
   font-weight: 500;
