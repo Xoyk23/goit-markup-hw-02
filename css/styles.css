@@ -258,10 +258,18 @@ b {
   letter-spacing: 0.03em;
   color: var(--primary-white-color);
   background-color: var(--secondaty-accent-color);
+  /* Пока оставить цвета для вторичных кнопок */
 }
 .button-filter-secondary {
   color: var(--primary-title-color);
   background-color: var(--secondary-white-color);
+}
+.button-filter:hover,
+.button-filter:focus,
+.button-filter-secondary:hover,
+.button-filter-secondary:focus {
+  color: var(--primary-white-color);
+  background-color: var(--secondaty-accent-color);
 }
 .subject {
   display: none;
