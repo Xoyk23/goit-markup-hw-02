@@ -248,7 +248,8 @@ b {
 .button-footer {
   background-color: var(--accent-color);
 }
-/* Кнопки филтров */
+
+/* Кнопки фильтров */
 .button-filter,
 .button-filter-secondary {
   font-weight: 500;
