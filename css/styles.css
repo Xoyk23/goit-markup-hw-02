@@ -3,6 +3,16 @@
 /* color:#FFFFFF белый */
 /* #2196f3 цвет фокуса */
 
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --main-font: 'Roboto', sans-serif;
   --second-font: 'Raleway', sans-serif;
