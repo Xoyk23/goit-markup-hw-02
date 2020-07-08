@@ -93,6 +93,9 @@ p {
   letter-spacing: 0.02em;
   outline: 2px solid salmon;
 }
+.menunav {
+  display: flex;
+}
 
 /* Оформление интерактивных элементов */
 .menunav .menunav-links:hover,
