@@ -84,6 +84,16 @@ p {
 
 /* оформление навигации сайта */
 
+.main-nav,
+.menunav {
+  display: flex;
+  align-items: center;
+}
+
+.menunav .item + .item {
+  margin-left: 50px;
+}
+
 .menunav-links,
 .contacts-links {
   color: var(--primary-title-color);
@@ -92,9 +102,6 @@ p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   outline: 2px solid salmon;
-}
-.menunav {
-  display: flex;
 }
 
 /* Оформление интерактивных элементов */
