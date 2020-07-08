@@ -6,6 +6,7 @@
 /* an+b
 a=задаём мы (3)
 b=смещение  (2)
+n=всегда 0 и увеличивается на 1
 3n+2
 3*0+2=2
 3*1+2=5
@@ -62,6 +63,8 @@ p {
 /* обнуление стилей */
 .list {
   list-style: none;
+  margin: 0px;
+  padding: 0px;
 }
 .link {
   text-decoration: none;
