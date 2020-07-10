@@ -70,6 +70,14 @@ p {
   text-decoration: none;
 }
 
+/* Контейнер */
+.container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
 /* оформление шапки */
 .logo-head,
 .logo-decoration {
@@ -79,6 +87,18 @@ p {
   line-height: 1.2;
   color: var(--main-black-color);
   outline: 2px solid salmon;
+}
+
+.head .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-head {
+  margin-right: 85px;
+  margin-top: 24px;
+  margin-bottom: 25px;
 }
 
 .logo-decoration {
@@ -91,10 +111,25 @@ p {
 .menunav {
   display: flex;
   align-items: center;
+  /* justify-content: space-around; */
+}
+.menunav {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.menunav .item:not(:last-child) {
+  margin-right: 50px;
+}
+.header-util {
+  display: flex;
 }
 
-.menunav .item + .item {
-  margin-left: 50px;
+.contacts-list {
+  display: flex;
+}
+
+.contacts-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .menunav-links,
@@ -125,6 +160,13 @@ p {
 
 /* Оформление основной страницы */
 /* Секция Герой */
+
+.hero .button {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .hero-title {
   font-weight: 900;
   font-size: 44px;
